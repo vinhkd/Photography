@@ -1,40 +1,5 @@
 # Documentation
 
-## Table of Contents
-
-- [General](general)
-  - [**CLI Commands**](general/commands.md)
-  - [Introduction ](general/introduction.md)
-  - [Tool Configuration](general/files.md)
-  - [Server Configurations](general/server-configs.md)
-  - [Deployment](general/deployment.md) _(currently Heroku and AWS S3 specific)_
-  - [Debugging](general/debugging.md)
-  - [FAQ](general/faq.md)
-  - [Gotchas](general/gotchas.md)
-  - [Remove](general/remove.md)
-  - [Extracting components](general/components.md)
-- [Testing](testing)
-  - [Unit Testing](testing/unit-testing.md)
-  - [Component Testing](testing/component-testing.md)
-  - [Remote Testing](testing/remote-testing.md)
-- [Styling (CSS)](css/README.md)
-  - [Next Generation CSS](css/README.md#next-generation-css)
-  - [CSS Support](css/README.md#css-we-support)
-  - [styled-components](css/README.md#styled-components)
-  - [Stylesheet](css/README.md#stylesheet)
-  - [CSS Modules](css/README.md#css-modules)
-  - [Sass](css/README.md#sass)
-  - [LESS](css/README.md#less)
-- [JS](js)
-  - [Redux](js/redux.md)
-  - [ImmutableJS](js/immutablejs.md)
-  - [reselect](js/reselect.md)
-  - [redux-saga](js/redux-saga.md)
-  - [i18n](js/i18n.md)
-  - [routing](js/routing.md)
-- [Maintenance](maintenance)
-  - [Dependency Update](maintenance/dependency.md)
-
 ## Overview
 
 ### Quickstart

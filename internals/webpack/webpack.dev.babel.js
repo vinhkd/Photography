@@ -98,7 +98,7 @@ function dependencyHandlers() {
    * Reminder: You need to exclude any server side dependencies by listing them in dllConfig.exclude
    */
   if (!dllPlugin.dlls) {
-    const manifestPath = path.resolve(dllPath, 'reactBoilerplateDeps.json');
+    const manifestPath = path.resolve(dllPath, 'ReactPhotomothDeps.json');
 
     if (!fs.existsSync(manifestPath)) {
       logger.error(

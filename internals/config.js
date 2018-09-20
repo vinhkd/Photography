@@ -2,9 +2,9 @@ const { resolve } = require('path');
 const pullAll = require('lodash/pullAll');
 const uniq = require('lodash/uniq');
 
-const ReactBoilerplate = {
+const ReactPhotomoth = {
   // This refers to the react-boilerplate version this project is based on.
-  version: '3.6.0',
+  version: '0.0.1',
 
   /**
    * The DLL Plugin provides a dramatic speed increase to webpack build and hot module reloading
@@ -43,16 +43,16 @@ const ReactBoilerplate = {
     entry(pkg) {
       const dependencyNames = Object.keys(pkg.dependencies);
       const exclude =
-        pkg.dllPlugin.exclude || ReactBoilerplate.dllPlugin.defaults.exclude;
+        pkg.dllPlugin.exclude || ReactPhotomoth.dllPlugin.defaults.exclude;
       const include =
-        pkg.dllPlugin.include || ReactBoilerplate.dllPlugin.defaults.include;
+        pkg.dllPlugin.include || ReactPhotomoth.dllPlugin.defaults.include;
       const includeDependencies = uniq(dependencyNames.concat(include));
 
       return {
-        reactBoilerplateDeps: pullAll(includeDependencies, exclude),
+        ReactPhotomothDeps: pullAll(includeDependencies, exclude),
       };
     },
   },
 };
 
-module.exports = ReactBoilerplate;
+module.exports = ReactPhotomoth;
