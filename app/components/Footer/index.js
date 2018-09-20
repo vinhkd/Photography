@@ -1,6 +1,6 @@
 /**
  *
- * CreateAccount
+ * Footer
  *
  */
 
@@ -12,7 +12,7 @@ import { FormattedMessage } from 'react-intl';
 import messages from './messages';
 
 /* eslint-disable react/prefer-stateless-function */
-class CreateAccount extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
       <div>
@@ -22,6 +22,6 @@ class CreateAccount extends React.Component {
   }
 }
 
-CreateAccount.propTypes = {};
+Footer.propTypes = {};
 
-export default CreateAccount;
+export default Footer;
